@@ -1,4 +1,3 @@
-/* Fullscreen background with gradient */
 .landing-background {
   height: 100vh;
   display: flex;
@@ -7,7 +6,6 @@
   background: linear-gradient(135deg, #be3a3a, #66a6ff);
 }
 
-/* Centered card-style container without animation */
 .landing-container {
   text-align: center;
   padding: 50px;
@@ -17,8 +15,6 @@
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   font-family: 'Segoe UI', sans-serif;
-  /* Removed animation */
-  /* transition: transform 0.3s ease; */
 }
 
 .landing-container h1 {
@@ -27,7 +23,6 @@
   margin-bottom: 30px;
 }
 
-/* Stylish button */
 .go-to-login-button {
   padding: 12px 24px;
   background: linear-gradient(135deg, #be3a3a, #2575fc);

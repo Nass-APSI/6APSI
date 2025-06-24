@@ -7,35 +7,6 @@
   pointer-events: none;
 }
 
-.go-to-login-button {
-  padding: 12px 24px;
-  background: linear-gradient(135deg, #ff0000, #2575fc);
-  color: white;
-  border: none;
-  border-radius: 30px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin-top: 20px;
-}
-
-.center-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-
-.go-to-login-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.go-to-login-button:active {
-  transform: scale(0.95);
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
